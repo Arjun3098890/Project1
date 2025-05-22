@@ -152,7 +152,9 @@
     <None Include="res\lightingshader.vert" />
     <None Include="res\model.fs" />
     <None Include="res\model.vs" />
-    <None Include="res\singleshader.fs" />
+    <None Include="res\screenshader.fs" />
+    <None Include="res\screenshader.vs" />
+    <None Include="res\singleshader.vs" />
     <None Include="src\glm\detail\func_common.inl" />
     <None Include="src\glm\detail\func_common_simd.inl" />
     <None Include="src\glm\detail\func_exponential.inl" />
@@ -590,13 +592,19 @@
   </ItemGroup>
   <ItemGroup>
     <Image Include="..\..\..\..\Downloads\container2.png" />
+    <Image Include="res\back.jpg" />
     <Image Include="res\black.jpg" />
+    <Image Include="res\bottom.jpg" />
+    <Image Include="res\front.jpg" />
     <Image Include="res\grass.png" />
+    <Image Include="res\left.jpg" />
     <Image Include="res\model\ao.jpg" />
     <Image Include="res\model\diffuse.jpg" />
     <Image Include="res\model\normal.png" />
     <Image Include="res\model\roughness.jpg" />
     <Image Include="res\model\specular.jpg" />
+    <Image Include="res\right.jpg" />
+    <Image Include="res\top.jpg" />
     <Image Include="res\white.jpg" />
     <Image Include="res\window.png" />
     <Image Include="src\textures\container2.png" />

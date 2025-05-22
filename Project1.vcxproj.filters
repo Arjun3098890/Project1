@@ -456,7 +456,9 @@
     <None Include="assimp-vc143-mtd.dll" />
     <None Include="res\model.vs" />
     <None Include="res\model.fs" />
-    <None Include="res\singleshader.fs" />
+    <None Include="res\singleshader.vs" />
+    <None Include="res\screenshader.vs" />
+    <None Include="res\screenshader.fs" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\shader.h">
@@ -1386,6 +1388,24 @@
       <Filter>Resource Files</Filter>
     </Image>
     <Image Include="res\window.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\back.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bottom.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\front.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\left.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\right.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\top.jpg">
       <Filter>Resource Files</Filter>
     </Image>
   </ItemGroup>
